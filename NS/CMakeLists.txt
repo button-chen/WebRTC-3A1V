@@ -12,3 +12,5 @@ add_executable(NS
         noise_suppression.c
         noise_suppression.h
         timing.h)
+        
+target_link_libraries(NS m)
