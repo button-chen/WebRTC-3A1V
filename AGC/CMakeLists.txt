@@ -10,3 +10,6 @@ add_executable(AGC
         agc.h
         dr_wav.h
         main.c)
+        
+target_link_libraries(AGC m)
+        
